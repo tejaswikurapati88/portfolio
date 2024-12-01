@@ -1,0 +1,74 @@
+.home-bg-cont{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    height: 80%;
+    width: 100%;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+#box{
+    height: 350px;
+    width: 350px;
+    border: none;
+    border-radius: 200px;
+    overflow: hidden;
+}
+#box img{
+    border: none;
+    border-radius: 200px;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    transition: all ease 1s;
+}
+
+#box:hover img{
+    scale: 1.1;
+}
+.home-name-cont{
+    width: 40%;
+    color: #5f5b5b;
+}
+
+.head-home{
+    font-size: 35px;
+    margin-bottom: 7px;
+}
+.name-head-home{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.home-span{
+    color: rgb(220, 97, 74);
+}
+
+.icon{
+    border: 3px solid rgb(220, 97, 74);
+    font-size: 35px;
+    color: rgb(220, 97, 74);
+    padding: 5px;
+    border-radius: 40px;
+    margin-right: 20px;
+}
+.desc{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.name-head-home{
+    margin-bottom: 8px;
+}
+.dow-icon{
+    font-size: 20px;
+}
+.down-btn{
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(220, 97, 74);
+    color: #fff;
+    padding: 10px;
+    border: 1px solid rgb(220, 97, 74);
+    border-radius: 20px;
+}
