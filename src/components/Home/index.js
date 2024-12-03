@@ -12,8 +12,8 @@ const Home=()=>{
                 <h1 className='name-head-home'>Tejaswi Kurapati<br/>
                     I'm a <span className='home-span'>Full Stack Developer</span> 
                 </h1>
-                <p className='desc'>Building Front-end, Back-end and bridge between front-end and 
-                    back-end web development.</p>
+                <p className='desc'>Passionate about creating intuitive and engaging user experiences. 
+                    Specialize in transforming ideas into beautifully crafted products..</p>
                 <div className='icons'>
                     <div className='icon-cont'>
                         <a href="https://github.com/tejaswikurapati88" className='ancher'><FaGithub className='icon' /></a>
@@ -27,7 +27,6 @@ const Home=()=>{
                 <img src='https://res.cloudinary.com/dkvptcm7q/image/upload/v1732708927/HTR_7698_wyvnc3.jpg' 
                 alt='img' />
             </div>
-
         </div>
     )
 }
