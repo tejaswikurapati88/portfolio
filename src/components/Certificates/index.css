@@ -1,0 +1,22 @@
+.certi-ul{
+    padding-inline-start: 0%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.bg-cont-certi{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.cont-ab-certi{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

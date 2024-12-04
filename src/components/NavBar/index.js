@@ -46,10 +46,10 @@ const Navbar=()=>{
                     }
                 return( 
                 <li key={each.id}>
-                        <a href={`#${each.name}`}><p className={activeTab=== each.name ? 'nav-name  activeTabe' :'underline nav-name'}
-                            onClick={onTab} >
+                        <a href={`#${each.name}`} target='_self' onClick={onTab} rel="noreferrer" 
+                        className={activeTab=== each.name ? 'nav-name  activeTabe' :'underline nav-name'} > 
                             {each.displayName}
-                        </p></a>
+                        </a>
                     </li>)})}
             </ul>
         </div>

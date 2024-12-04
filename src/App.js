@@ -4,6 +4,9 @@ import Home from './components/Home';
 import About from './components/About';
 import { useEffect, useState } from 'react';
 import Technologies from './components/Technologies';
+import Projects from './components/Projects'
+import Certificates from './components/Certificates';
+import Contact from './components/Contact';
 
 function App() {
   const [distime, setdistime]= useState('')
@@ -26,6 +29,9 @@ function App() {
         <Home id='home'/>
         <About id='about'/>
         <Technologies id='skills'/>
+        <Projects id='projects'/>
+        <Certificates id='certificates'/>
+        <Contact id='contact'/>
         <div className='footer-bar'>
           <p className='time-botm'>{distime}</p>
         </div>

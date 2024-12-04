@@ -1,4 +1,5 @@
 import './index.css'
+import ProjectItem from '../ProjectItem'
 const projectList= [
     {
         projectId: 1,
@@ -26,6 +27,16 @@ const projectList= [
     }
 ]
 const Projects=()=>{
-    return (<h1>Projects</h1>)
+    return (
+        <div className='bg-cont'>
+            <div className='cont-ab'>
+                <h1 className='about-head'>My <span className='home-span'>Projects</span></h1>
+                <ul className='skills-ul'>
+                    {projectList.map(each => <ProjectItem key={each.projectId} projectItemDetails={each}  />)}
+                </ul>
+            </div>
+        </div>
+    )
 }
+
 export default Projects

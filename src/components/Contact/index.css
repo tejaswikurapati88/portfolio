@@ -1,0 +1,43 @@
+.inp-name{
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgb(220, 97, 74);
+    color: #fff;
+    width: 43%;
+    margin: 10px;
+    height: 40px;
+    font-size: 15px;
+    outline-color: #5f5b5b;
+    padding-left: 15px;
+}
+::placeholder{
+    color: #d4c5c5;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+}
+.inp{
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgb(220, 97, 74);
+    color: #fff;
+    width: 100%;
+    margin: 20px;
+    font-size: 15px;
+}
+.sub-btn{
+    border: none;
+    border-radius: 20px;
+    width: 120px;
+    background-color: #5f5b5b;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
