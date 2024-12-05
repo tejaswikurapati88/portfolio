@@ -21,7 +21,7 @@ const Home=()=>{
                         <a href="mailto:tejaswikurapati88@gmail.com" className='ancher'><BiLogoGmail className='icon' /></a>
                     </div>
                 </div>
-                <buton className='down-btn' type='button'>Download Resume <FaDownload className='dow-icon' /> </buton>
+                <button className='down-btn' type='button'>Download Resume <FaDownload className='dow-icon' /> </button>
             </div>
             <div id='box'>
                 <img src='https://res.cloudinary.com/dkvptcm7q/image/upload/v1732708927/HTR_7698_wyvnc3.jpg' 
