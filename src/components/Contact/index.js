@@ -8,11 +8,17 @@ const Contact=()=>{
     const [num, setNum]= useState('')
     const [subj, setSubj]= useState('')
     const [msg, setMsg]= useState('')
+    const [iserr, setiserr]= useState(false)
 
     const form = useRef();
 
     const onSubmission=(event)=>{
         event.preventDefault()
+        if (email ==='' || name==="" || num===""|| subj===""|| msg===""){
+            setiserr(true)
+        }else{
+            setiserr(false)
+        }
         emailjs
         .sendForm('service_jwnlfnq', 'template_1ocr7tc', form.current, {
             publicKey: 'hfyCqJk-0Q-DKXSBU',
@@ -48,7 +54,8 @@ const Contact=()=>{
                     <textarea rows='10' cols='50' name='message' id='mailtext' 
                         onChange={(eve)=>{setMsg(eve.target.value)}} defaultValue={msg}
                         className='inp' type='text' placeholder='Enter Your Message Here...' ></textarea>
-                    <button className='sub-btn' type='submit'>Submit</button>
+                    <button class="custom-btn btn-12"><span>Click!</span><span>Submit</span></button>
+                    <p className={iserr ? 'errclass' : 'none' }>**Please Provide Details</p>
                 </form>
 
             </div>
