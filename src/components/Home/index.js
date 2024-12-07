@@ -26,7 +26,7 @@ const Home=()=>{
                 </a>
             </div>
             <div id='box'>
-                <img src='https://res.cloudinary.com/dkvptcm7q/image/upload/v1732708927/HTR_7698_wyvnc3.jpg' 
+                <img className='image' src='https://res.cloudinary.com/dkvptcm7q/image/upload/v1732708927/HTR_7698_wyvnc3.jpg' 
                 alt='img' />
             </div>
             

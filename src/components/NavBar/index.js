@@ -1,5 +1,6 @@
 import './index.css'
 import {useState} from 'react'
+import { FaBars } from "react-icons/fa6";
 
 const Navbar=()=>{
     const [activeTab, setActiveTab]= useState('')
@@ -39,6 +40,7 @@ const Navbar=()=>{
     return (
         <div className="bg-nav-cont">
             <a href='/' className='nav-name'>Tejaswi Kurapati</a>
+            <FaBars className='bars' />
             <ul className='ul'>
                 {tabs.map(each => {
                     const onTab=()=>{

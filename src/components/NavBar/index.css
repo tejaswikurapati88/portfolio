@@ -1,5 +1,5 @@
 .bg-nav-cont{
-    background-color: #918787;
+    background-color: #e78876;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -9,6 +9,9 @@
     left: 0;
     right: 0;
     z-index: 2;
+}
+.footer-bar{
+    background-color: #e78876;
 }
 a{
     text-decoration: none;
@@ -52,4 +55,25 @@ li{
 }
 .activeTabe{
     color: bisque;;
+}
+.bars{
+    display: none;
+}
+@media (max-width: 576px) {
+    .nav-name{
+        font-size: 20px;
+        
+    }
+    .bg-nav-cont{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        justify-content: space-between;
+    }
+    .bars{
+        display: block;
+        color: #ffffff;
+    }
+    .ul{
+        display: none;
+    }
 }

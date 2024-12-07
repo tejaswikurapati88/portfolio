@@ -1,3 +1,7 @@
+.contact{
+  background-image: url('https://res.cloudinary.com/dkvptcm7q/image/upload/v1733490411/henry-be-IicyiaPYGGI-unsplash_skg6gt.jpg');
+    background-size: cover;
+}
 .inp-name{
     border: none;
     border-radius: 15px;

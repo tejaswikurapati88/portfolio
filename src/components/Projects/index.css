@@ -1,0 +1,12 @@
+.proj-bg{
+    background-image: url('https://res.cloudinary.com/dkvptcm7q/image/upload/v1733491085/pexels-mareefe-1323024_qg13vj.jpg');
+    background-size: cover;
+    padding-top: 0px;
+}
+@media (max-width: 576px) {
+    .proj-bg{
+        background-image: url('https://res.cloudinary.com/dkvptcm7q/image/upload/v1733491304/pexels-tara-winstead-7663285_hvkv8p.jpg');
+        background-size: cover;
+    }
+    
+}

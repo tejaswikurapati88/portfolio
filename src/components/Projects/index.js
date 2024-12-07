@@ -28,7 +28,7 @@ const projectList= [
 ]
 const Projects=()=>{
     return (
-        <div className='bg-cont'>
+        <div className='bg-cont proj-bg'>
             <div className='cont-ab'>
                 <h1 className='about-head'>My <span className='home-span'>Projects</span></h1>
                 <ul className='skills-ul'>

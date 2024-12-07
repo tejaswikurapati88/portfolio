@@ -39,7 +39,7 @@ const Contact=()=>{
         
     }
     return (
-        <div className='bg-cont'>
+        <div className='bg-cont contact'>
             <div className='cont-ab'>
                 <h1 className='about-head'>Contact <span className='home-span'>Me</span></h1>
                 <form ref={form} onSubmit={onSubmission} className='form'>

@@ -6,28 +6,43 @@
     font-family: 'Nunito', sans-serif;
     height: 80%;
     width: 100%;
-    padding-right: 50px;
     box-sizing: border-box;
 }
+
 #box{
     height: 350px;
     width: 350px;
     border: none;
     border-radius: 200px;
     overflow: hidden;
+    background-image: url('https://res.cloudinary.com/dkvptcm7q/image/upload/v1733490831/pexels-neosiam-4498792_vlvst7.jpg');
+    background-size: cover;
+    padding: 10px;
+    
 }
-#box img{
+#box .image{
     border: none;
     border-radius: 200px;
     width: 350px;
     height: 350px;
     object-fit: cover;
     transition: all ease 1s;
+    position: relative;
 }
 
-#box:hover img{
+#box:hover .image{
     scale: 1.1;
 }
+
+.image::after, .image::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    padding: 10px;
+}
+
 .home-name-cont{
     width: 40%;
     color: #5f5b5b;
@@ -126,4 +141,51 @@
     text-decoration: none;
     border-radius: 5px;
     font-size: 16px;
+}
+
+@media (max-width: 576px) {
+    .home-bg-cont{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    .name-head-home{
+        font-size: 15px;
+    }
+    #box{
+        order: 1;
+        width: 60%;
+        height: 190px;
+        align-self: center;
+        margin-top: 30px;
+    }
+    #box .image{
+        width: 100%;
+        height: 100%;
+    }
+    .home-name-cont{
+        order: 2;
+        width: 90%;
+    }
+    .name-head-home{
+        font-size: 30px;
+        margin-top: 10px;
+        line-height: 35px;
+    }
+    .head-home{
+        font-size: 20px;
+    }
+    .desc{
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .icon{
+        font-size: 25px;
+    }
+    .down-btn{
+        font-size: 13px;
+    }
+    .dow-icon{
+        font-size: 15px;
+    }
 }
