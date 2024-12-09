@@ -67,7 +67,10 @@ const certificatesList=[
 
 const Certificates=()=>{
     return (
-        <div className='bg-cont-certi'>
+        <div className='bg-cont-certi' id='certificates'
+		style={{
+			scrollMarginTop: "69px"
+		}}>
             <div className='cont-ab-certi'>
                 <h1 className='about-head'>My <span className='home-span'>Certificates</span></h1>
                 <ul className='certi-ul'>

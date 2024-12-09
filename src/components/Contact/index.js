@@ -39,8 +39,11 @@ const Contact=()=>{
         
     }
     return (
-        <div className='bg-cont contact'>
-            <div className='cont-ab'>
+        <div className='bg-cont contact' id='contact'
+        style={{
+            scrollMarginTop: "69px"
+        }}>
+            <div className='contact-ab'>
                 <h1 className='about-head'>Contact <span className='home-span'>Me</span></h1>
                 <form ref={form} onSubmit={onSubmission} className='form'>
                     <input name='from_name' id='name' onChange={(eve)=>{setName(eve.target.value)}} defaultValue={name}
@@ -54,7 +57,7 @@ const Contact=()=>{
                     <textarea rows='10' cols='50' name='message' id='mailtext' 
                         onChange={(eve)=>{setMsg(eve.target.value)}} defaultValue={msg}
                         className='inp' type='text' placeholder='Enter Your Message Here...' ></textarea>
-                    <button class="custom-btn btn-12"><span>Click!</span><span>Submit</span></button>
+                    <button className="custom-btn btn-12"><span>Click!</span><span>Submit</span></button>
                     <p className={iserr ? 'errclass' : 'none' }>**Please Provide Details</p>
                 </form>
 

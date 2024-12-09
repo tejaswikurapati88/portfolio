@@ -26,12 +26,12 @@ function App() {
     <>
       <div className='bg-container'>
         <Navbar />
-        <Home id='home'/>
-        <About id='about'/>
-        <Technologies id='skills'/>
-        <Projects id='projects'/>
-        <Certificates id='certificates'/>
-        <Contact id='contact'/>
+        <Home/>
+        <About/>
+        <Technologies />
+        <Projects />
+        <Certificates />
+        <Contact />
         <div className='footer-bar'>
           <p className='time-botm'>{distime}</p>
         </div>

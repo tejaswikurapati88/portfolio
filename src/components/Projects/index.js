@@ -28,7 +28,10 @@ const projectList= [
 ]
 const Projects=()=>{
     return (
-        <div className='bg-cont proj-bg'>
+        <div className='bg-cont proj-bg' id='projects'
+        style={{
+            scrollMarginTop: "69px"
+        }}>
             <div className='cont-ab'>
                 <h1 className='about-head'>My <span className='home-span'>Projects</span></h1>
                 <ul className='skills-ul'>

@@ -2,6 +2,9 @@
   background-image: url('https://res.cloudinary.com/dkvptcm7q/image/upload/v1733490411/henry-be-IicyiaPYGGI-unsplash_skg6gt.jpg');
     background-size: cover;
 }
+.about-head{
+  margin-top: 70px;
+}
 .inp-name{
     border: none;
     border-radius: 15px;
@@ -146,4 +149,43 @@
 }
 .none{
     display: none;
+}
+.contact-ab{
+  display: flex;
+    height: 100vh;
+    width: 80%;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (max-width:576px) {
+  .contact-ab{
+    width: 100%;
+  }
+  .form{
+    width: 100%;
+  }
+  .inp-name{
+    padding: 0px;
+    padding-left: 15px;
+    border-radius: 10px;
+    font-size: 12px;
+    width: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+  }
+  .inp{
+    border-radius: 10px;
+    margin-top: 8px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .contact{
+    background-image: url('https://res.cloudinary.com/dkvptcm7q/image/upload/v1733569312/annie-spratt-YKBoscpkYwY-unsplash_wn1ndq.jpg');
+    background-size: cover;
+    padding-bottom: 50px;
+  }
+  
 }

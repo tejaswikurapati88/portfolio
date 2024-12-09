@@ -61,8 +61,11 @@ const skillsList=[
 
 const Technologies=()=>{
     return(
-        <div className='bg-cont'>
-            <div className='cont-ab'>
+        <div className='tech-bg-cont' id='skills'
+        style={{
+            scrollMarginTop: "69px"
+        }}>
+            <div className='tech-cont'>
                 <h1 className='about-head'>Technical <span className='home-span'>Skills</span></h1>
                 <ul className='skills-ul'>
                     {skillsList.map(each => <SkillItem key={each.id} itemDetails={each}  />)}

@@ -7,3 +7,24 @@
     flex-wrap: wrap;
     margin-top: 50px;
 }
+
+.tech-cont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+@media (max-width: 576px) {
+    .about-head{
+        font-size: 35px;
+        width: 80%;
+        text-align: center;
+    }
+    .tech-cont{
+        margin-top: 0;
+    }
+    .skills-ul{
+        margin-top: 0px;
+        width: 100%;
+    }
+}

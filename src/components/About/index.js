@@ -2,7 +2,11 @@ import './index.css'
 
 const About=()=>{
     return (
-        <div className='bg-cont-abt'>
+        <div className='bg-cont-abt' id='about'
+            style={{
+                scrollMarginTop: "69px"
+            }}
+        >
             <div className='cont-ab ab-con'>
                 <h1 className='about-head'>About <span className='home-span'>Me</span></h1>
                 <p className='about-p abt-p'>I’m a Full Stack Developer with a strong foundation in HTML, 
